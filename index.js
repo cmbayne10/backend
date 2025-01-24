@@ -4,13 +4,13 @@ const port = 3000;
 
 app.use(express.json());
 
-app.get("/i", (req, res) => {
+app.get("/CRUD", (req, res) => {
   res.json({ hi: "wassup loozr 😭" });
 });
 
-app.post("/path", (req, res) => {
+app.post("/POOP", (req, res) => {
   console.log(req.body);
-  res.json({ message: "hi " + req.body.name});
+  res.json({ message: "hi " + req.body.name });
 });
 
 app.listen(port, () => {
