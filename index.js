@@ -1,4 +1,5 @@
 const express = require("express");
+const { fizzBuzz } = require("./fizzBuzz");
 const app = express();
 const port = 3000;
 
@@ -16,17 +17,3 @@ app.post("/POOP", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
-function fizzBuzz(numbers) {
-  return numbers;
-}
-/* 2 backends rest api app programming interface 
-always responds in JSON {always in curly brackets}
-rest api sends/recieves data 
-CRUD - create, read, update, delete 
-any website account comes from a database
-Post is sending data to a database
-Gets recieving data from database
-Delete
-request response
-ctrl shift r = extract function */
