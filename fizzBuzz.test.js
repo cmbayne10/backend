@@ -15,3 +15,7 @@ test("fizzBuzz returns 2 if 2 is passed in", () => {
 test("fizzBuzz returns fizz if three is passed in", () => {
   expect(fizzBuzz([3])).toEqual(["fizz"]);
 });
+
+test("fizzBuzz returns fizz if 6 is passed in", () => {
+  expect(fizzBuzz([6])).toEqual(["fizz"]);
+});
